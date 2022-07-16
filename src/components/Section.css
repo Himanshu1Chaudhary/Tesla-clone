@@ -1,0 +1,59 @@
+.innerText{
+    padding-top: 15vh;
+    text-align: center;
+    font-size: larger;
+}
+
+.innerText > p{
+ padding-top: 5px;
+}
+.buttongroup{
+    display: flex;
+    margin-bottom: 2vh;
+    flex-direction: column;
+
+}
+.buttonLeft{
+    background-color: grey;
+    height: 40px;
+    width: 256px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+}
+
+.buttonLeft > h4{
+    color: white;
+}
+.buttonRight{
+    background-color: black;
+    height: 40px;
+    width: 256px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.buttonRight > h4{
+    color: white;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.downArrow{
+    margin-top: 5px;
+    margin-left: 100px;
+    animation: animateDown infinite 1.5s;
+    cursor: pointer;
+}

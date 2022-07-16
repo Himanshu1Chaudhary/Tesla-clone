@@ -1,0 +1,28 @@
+.header{
+    min-height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 100vw;
+}
+.left_menu{
+    display: flex; 
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    margin-left: 50px;
+}
+.rigth_menu {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.rigth_menu > a{
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+    justify-content: center;
+    margin-right: 20px;
+}
+

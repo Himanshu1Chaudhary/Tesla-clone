@@ -1,0 +1,7 @@
+.header_menu > p > a{
+    font-weight: 600;
+    font-size: large;
+    padding: 0 40px;
+    flex-wrap: nowrap;
+   
+}
